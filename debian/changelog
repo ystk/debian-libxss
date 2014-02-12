@@ -1,3 +1,32 @@
+libxss (1:1.2.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Don't require (fake)root for debian/rules clean.
+  * Remove David Nusinow from Uploaders.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 22 Apr 2012 09:35:50 +0200
+
+libxss (1:1.2.1-2) unstable; urgency=low
+
+  * Build for multiarch.
+
+ -- Steve Langasek <vorlon@debian.org>  Thu, 11 Aug 2011 11:24:52 -0700
+
+libxss (1:1.2.1-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+  * Remove myself from Uploaders
+
+  [ Cyril Brulebois ]
+  * New upstream release.
+  * Bump xutils-dev build-dep for new macros.
+  * Switch from --list-missing to --fail-missing for additional safety.
+  * Add myself to Uploaders.
+
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 08 Nov 2010 00:52:53 +0100
+
 libxss (1:1.2.0-2) unstable; urgency=low
 
   * Upload to unstable.
